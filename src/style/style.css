@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    background-color: #12121f;
+    color: #eee;
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.headerTab {
+    background-color: #2c2c57;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    overflow: hidden;
+    float: right;
+}
+
+.contentTab {
+    text-align: center;
+    display: block;
+}
+
+.aboutUs {
+    height: 50px;
+}

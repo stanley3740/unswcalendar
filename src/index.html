@@ -12,22 +12,26 @@
     <body>
         <div class="container">
             <div class="headerTab">
-                <h1>
+                <h1 id="name">
                     UNSW Calendar
                 </h1>
 
-                <button class="aboutUs">
-                    <a href="about-us.html">
-                        Find out more about our work here!
-                    </a>
+                <button class="menuButton" id="home" onclick="window.location.href='index.html';">
+                    Home 
+                </button>
+                
+                <button class="menuButton" id="aboutUs" onclick="window.location.href='about-us.html';">
+                    About Us 
                 </button>
             </div>
 
+
             <div class="contentTab">
-                <p>
-                    This website is in development.
+                <p class="dev">
+                    This website is currently in development.
                 </p>
             </div>
+
         </div>
         
         <script src="scripts/script.js"></script>
